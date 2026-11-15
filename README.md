@@ -25,3 +25,8 @@ Live links:
 Verified live HTTP200 for index, both options and404.html, with noindex on each. An unknown route returned HTTP404 with the branded noindex HTML. All five responses match the prepared source after Git line-ending normalization. Both options render at390px without horizontal overflow; published option2 portrait selection focuses and scrolls the profile to88.53px below the73px header, and return-to-portraits works. Run node check-site.mjs and node check-live.mjs https://ahmads-cell.github.io/noetic-about-us-preview/ for regression verification.
 
 Noindex is not access control or an absolute guarantee for all search engines; it does not control the public repository GitHub UI. Earlier private-upload/plan-blocker statements are historical and superseded by this explicit authorization and completed deployment. No permanent brand or Shopify changes.
+
+
+## Customer presentation finish
+
+Both complete directions are prepared for mobile customer comparison. The chooser omits internal work notes, controls remain readable, both pages share header-aware anchor navigation and end-of-page comparison links. See CUSTOMER_PRESENTATION_QA.md for actual rendered and independent checks, detector exceptions and limits. Edit source/, then run node build.mjs, node check-source.mjs and node check-site.mjs. After deployment run node check-live.mjs with the HTTPS site root.

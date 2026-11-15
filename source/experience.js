@@ -21,7 +21,7 @@
   }
   function syncMotion(){
     document.documentElement.classList.toggle('motion-paused',paused||preference.matches);
-    if(toggle){toggle.hidden=preference.matches;toggle.textContent=paused?'Resume motion':'Pause motion';toggle.setAttribute('aria-pressed',String(paused));}
+    if(toggle){toggle.hidden=preference.matches;toggle.textContent=paused?'Resume':'Pause';toggle.setAttribute('aria-label',paused?'Resume motion':'Pause motion');toggle.setAttribute('aria-pressed',String(paused));}
     if(!allowsMotion()){
       for(const animation of running)animation.cancel();
       document.getAnimations?.().forEach(animation=>animation.cancel());
@@ -32,7 +32,7 @@
   document.addEventListener('visibilitychange',syncMotion);
   syncMotion();
   // Keep same-page navigation in the current document, with a consistent sticky-header offset.
-  if(document.body.classList.contains('people-page'))document.addEventListener('click',event=>{
+  document.addEventListener('click',event=>{
     if(event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.altKey||event.shiftKey)return;
     const link=event.target.closest?.('a[href^="#"]');
     if(!link||(link.target&&link.target!=='_self')||!link.hash)return;

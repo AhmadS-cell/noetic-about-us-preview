@@ -1,0 +1,15 @@
+# Customer presentation finish — 15 November 2026
+
+Status: ready for customer comparison; neither option is promoted to a permanent approved brand direction. Existing Noetic identity, copy, sections and real imagery are preserved.
+
+Changed: comparison entrance now describes the two directions in customer-readable language and omits internal implementation/provisional-name notes. Compact presentation navigation uses16px type and44px targets at every checked size. Added compare/switch links at the bottom of both complete pages. The existing sticky-header-aware focus and scroll behavior now applies consistently to both options. Motion Pause/Resume stays accessible with full screen-reader labels.
+
+Root browser QA: both pages320,360,390,430,768,1440px, fonts loaded, no horizontal document overflow. All12 wrap regions have symmetric20px padding on mobile. Prepared self-contained bundle checked separately: option1 story heading focuses at88.5px under73px header; full/close image controls and native FAQ open work; footer link opens option2; Rana selection focuses and scrolls to88.53px; Feminine panel/image loaded. Comparison entrance and both directions visually checked.
+
+Independent Assessment A: SHIP. Fresh Chrome tab reviewed option1 hero390, founders390/320, team320, detail controls, anchor focus, end-to-end compare switching; option2 hero390, Rana profile/return, Feminine tab, wardrobe320 and motion pause. No outstanding priority issue. Independent screenshots retained locally. Root independently verified FAQ after locator difference in A. Chrome/IAB responsive views only; no claim of physical-device/Safari certification, field performance or conversion results.
+
+Independent Assessment B: actual repaired Impeccable engine0.1.17, exit2 with12 warnings (cream-palette3, cramped-padding9). The cream is the verified incumbent Noetic palette; padding warnings concern full-bleed parent sections with correctly inset/padded child wrappers. Rendered mobile measurements confirm20px symmetric gutters and section spacing. These are reviewed contextual exceptions, not a zero-warning detector or automated aesthetic certification. No suppression added. No injected overlay (browser evaluate is read-only).
+
+Engine repair is persistent in the Windows user cache. Pinned official signed binary and SHA256 verified; existing Windows launcher engine-probe/context succeed. No launcher/skill upgrade. The prior unavailable result only reflected absent engine with automatic downloads disabled. Full provenance/scan limitations remain in the local IMPECCABLE_RUNTIME.md, not in public page content.
+
+Build: edit source/ then node build.mjs; repeatable HTML output verified. node check-source.mjs and node check-site.mjs pass. Live deployment verification must use node check-live.mjs https://ahmads-cell.github.io/noetic-about-us-preview/ after publishing. Four served HTML files retain noindex, including404; fonts/images inline. Noindex is not access control or an absolute guarantee and does not control a public repository's GitHub UI.
