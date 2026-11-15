@@ -1,11 +1,8 @@
 /* Native, bounded motion. The entire page is readable before this script runs. */
 (() => {
   const preference=matchMedia('(prefers-reduced-motion: reduce)');
-  const toggle=document.querySelector('.motion-toggle');
   const running=new Set();
-  let paused=false;
-  try{paused=sessionStorage.getItem('noetic-motion-paused')==='true';}catch{}
-  const allowsMotion=()=>!preference.matches&&!paused&&!document.hidden;
+  const allowsMotion=()=>!preference.matches&&!document.hidden;
   function scrollToContent(element){
     const header=document.querySelector('.site-header');
     const inset=(header?.getBoundingClientRect().height||0)+16;
@@ -20,14 +17,12 @@
     return animation;
   }
   function syncMotion(){
-    document.documentElement.classList.toggle('motion-paused',paused||preference.matches);
-    if(toggle){toggle.hidden=preference.matches;toggle.textContent=paused?'Resume':'Pause';toggle.setAttribute('aria-label',paused?'Resume motion':'Pause motion');toggle.setAttribute('aria-pressed',String(paused));}
+    document.documentElement.classList.toggle('motion-paused',preference.matches);
     if(!allowsMotion()){
       for(const animation of running)animation.cancel();
       document.getAnimations?.().forEach(animation=>animation.cancel());
     }
   }
-  if(toggle){toggle.hidden=false;toggle.addEventListener('click',()=>{paused=!paused;try{sessionStorage.setItem('noetic-motion-paused',String(paused));}catch{}syncMotion();});}
   preference.addEventListener('change',syncMotion);
   document.addEventListener('visibilitychange',syncMotion);
   syncMotion();
@@ -68,7 +63,7 @@
       if(!element)continue;
       const r=element.getBoundingClientRect();
       const progress=Math.min(1,Math.max(0,(innerHeight-r.top)/(innerHeight*.5)));
-      element.style.setProperty(name,preference.matches||paused?1:progress);
+      element.style.setProperty(name,preference.matches?1:progress);
     }
     let current=sections[0];
     for(const item of sections)if(item.link.getClientRects().length&&item.section.getBoundingClientRect().top<innerHeight*.4)current=item;
