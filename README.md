@@ -11,6 +11,17 @@ Noindex is not access control and is not an absolute guarantee for every search 
 New page copy, layouts and provisional English transliterations remain review drafts, not permanent brand rules. Founder Renad Nagro; co-founder Ibrahim Mousli; Sara Nagro, Creative; Sara Alhamdan, Head of Fashion; Rana Mohamed, Customer Support. No Shopify changes are included.
 
 
-## Verified hosting status — 15 November 2026
 
-Source uploaded privately. GitHub Pages settings currently require an upgrade or a public repository. No visibility change, plan purchase or live deployment was made. The owner must resolve this specific tradeoff before Pages deployment. See MOBILE_QA.md for mobile QA and its limits.
+
+## Public Pages deployment — 15 November 2026
+
+The owner explicitly authorized making this repository public and enabling GitHub Pages. Visibility changed to public after owner-completed GitHub re-authentication. Pages is enabled from main /docs with HTTPS.
+
+Live links:
+- https://ahmads-cell.github.io/noetic-about-us-preview/option-1.html
+- https://ahmads-cell.github.io/noetic-about-us-preview/option-2.html
+- https://ahmads-cell.github.io/noetic-about-us-preview/
+
+Verified live HTTP200 for index, both options and404.html, with noindex on each. An unknown route returned HTTP404 with the branded noindex HTML. All five responses match the prepared source after Git line-ending normalization. Both options render at390px without horizontal overflow; published option2 portrait selection focuses and scrolls the profile to88.53px below the73px header, and return-to-portraits works. Run node check-site.mjs and node check-live.mjs https://ahmads-cell.github.io/noetic-about-us-preview/ for regression verification.
+
+Noindex is not access control or an absolute guarantee for all search engines; it does not control the public repository GitHub UI. Earlier private-upload/plan-blocker statements are historical and superseded by this explicit authorization and completed deployment. No permanent brand or Shopify changes.
