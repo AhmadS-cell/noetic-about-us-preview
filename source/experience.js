@@ -135,7 +135,7 @@
     choose(buttons[0],false);
   }
   // Native keyboard FAQ behavior is preserved; only the newly opened answer moves.
-  document.querySelectorAll('details').forEach(details=>details.addEventListener('toggle',()=>{
+  document.querySelectorAll('#questions details').forEach(details=>details.addEventListener('toggle',()=>{
     if(details.open)animate(details.querySelector('p'),[{opacity:.45,transform:'translateY(-4px)'},{opacity:1,transform:'none'}],220);
   }));
 })();

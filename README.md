@@ -29,4 +29,9 @@ Noindex is not access control or an absolute guarantee for all search engines; i
 
 ## Customer presentation finish
 
-Both complete directions are prepared for mobile customer comparison. The chooser omits internal work notes, controls remain readable, both pages share header-aware anchor navigation and end-of-page comparison links. See CUSTOMER_PRESENTATION_QA.md for actual rendered and independent checks, detector exceptions and limits. Edit source/, then run node build.mjs, node check-source.mjs and node check-site.mjs. After deployment run node check-live.mjs with the HTTPS site root.
+Both complete directions are prepared for mobile customer comparison. The chooser omits internal work notes, controls remain readable, both pages share header-aware anchor navigation and comparison controls. See CUSTOMER_PRESENTATION_QA.md for actual rendered and independent checks, detector exceptions and limits. Edit source/, then run node build.mjs, node check-source.mjs and node check-site.mjs. After deployment run node check-live.mjs with the HTTPS site root.
+
+
+## Original Noetic footer
+
+The owner requires both options to reuse the actual English Noetic store footer from https://noetic.sa/en. The original footer content,8links, company/CR/VAT details, newsletter and social icons replace the proposed footer. Back to top follows the originalstore; bottom presentation links were removed, while the top comparison controls remain. See ORIGINAL_FOOTER_QA.md for verified fidelity, native form behavior and limits. Run node check-footer.mjs to prevent copy/link/form drift from reference/original-footer.html. Do not submit test subscriptions to the realstore.
