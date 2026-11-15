@@ -35,3 +35,8 @@ Both complete directions are prepared for mobile customer comparison. The choose
 ## Original Noetic footer
 
 The owner requires both options to reuse the actual English Noetic store footer from https://noetic.sa/en. The original footer content,8links, company/CR/VAT details, newsletter and social icons replace the proposed footer. Back to top follows the originalstore; bottom presentation links were removed, while the top comparison controls remain. See ORIGINAL_FOOTER_QA.md for verified fidelity, native form behavior and limits. Run node check-footer.mjs to prevent copy/link/form drift from reference/original-footer.html. Do not submit test subscriptions to the realstore.
+
+
+## Original Noetic header
+
+Both options now use the original store logo,icons,collectionnavigation andmobilemenu hierarchy. Header textsearch uses the original nativeGET endpoint; cart,wishlist,account andArabic controls lead to the realstore. Menu/search behavior andmobile/desktop fit checked; no fakecart/auth data or image-upload claim. The two unwanted option2hero links were removed. Run node check-header.mjs to verify the independent public-source contract in reference/original-header.json. See ORIGINAL_HEADER_QA.md for evidence and intentional responsive adaptations.

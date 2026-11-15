@@ -6,7 +6,7 @@ const dist=resolve(root,'source');
 const repo=root;
 const docs=resolve(repo,'docs');
 await mkdir(docs,{recursive:true});
-const mime={'.jpg':'image/jpeg','.svg':'image/svg+xml','.woff2':'font/woff2'};
+const mime={'.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.woff2':'font/woff2'};
 const cache=new Map();
 async function data(path){if(!cache.has(path))cache.set(path,`data:${mime[extname(path)]};base64,${(await readFile(resolve(dist,path))).toString('base64')}`);return cache.get(path);}
 async function inlineCss(path){let css=await readFile(resolve(dist,path),'utf8');for(const match of [...css.matchAll(/url\(['"]?(assets\/[^)'"\s]+)['"]?\)/g)])css=css.replace(match[0],`url('${await data(match[1])}')`);return css;}

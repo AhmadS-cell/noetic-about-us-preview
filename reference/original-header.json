@@ -1,0 +1,119 @@
+{
+  "source": "https://noetic.sa/en",
+  "captured": "2026-11-15",
+  "scope": "Independent public menu destinations, vector icons and logo hashes only; no full page/session capture. Wishlist vector captured from the original open shadow DOM.",
+  "collectionURLs": [
+    "https://noetic.sa/en/collections/abayas",
+    "https://noetic.sa/en/collections/all",
+    "https://noetic.sa/en/collections/denim",
+    "https://noetic.sa/en/collections/dresses",
+    "https://noetic.sa/en/collections/jacket",
+    "https://noetic.sa/en/collections/kaftans-abaya",
+    "https://noetic.sa/en/collections/kids-kaftan",
+    "https://noetic.sa/en/collections/modest",
+    "https://noetic.sa/en/collections/moomy-and-me",
+    "https://noetic.sa/en/collections/new-arrivals-1",
+    "https://noetic.sa/en/collections/occasions",
+    "https://noetic.sa/en/collections/pants",
+    "https://noetic.sa/en/collections/sale-items",
+    "https://noetic.sa/en/collections/set",
+    "https://noetic.sa/en/collections/skirt",
+    "https://noetic.sa/en/collections/swimwear",
+    "https://noetic.sa/en/collections/the-gifts-edit",
+    "https://noetic.sa/en/collections/tops",
+    "https://noetic.sa/en/collections/winter"
+  ],
+  "iconGeometry": {
+    "menu": [],
+    "search": [
+      {
+        "tag": "svg",
+        "attributes": {
+          "viewbox": "0 0 21 20"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M10.1178 17.5013C14.4901 17.5013 18.0345 13.9569 18.0345 9.58464C18.0345 5.21238 14.4901 1.66797 10.1178 1.66797C5.74558 1.66797 2.20117 5.21238 2.20117 9.58464C2.20117 13.9569 5.74558 17.5013 10.1178 17.5013Z"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M18.8678 18.3346L17.2012 16.668"
+        }
+      }
+    ],
+    "account": [
+      {
+        "tag": "svg",
+        "attributes": {
+          "viewbox": "0 0 21 20"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M10.2653 10.0013C12.5665 10.0013 14.432 8.13582 14.432 5.83464C14.432 3.53345 12.5665 1.66797 10.2653 1.66797C7.96411 1.66797 6.09863 3.53345 6.09863 5.83464C6.09863 8.13582 7.96411 10.0013 10.2653 10.0013Z"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M17.4251 18.3333C17.4251 15.1083 14.2167 12.5 10.2667 12.5C6.31673 12.5 3.1084 15.1083 3.1084 18.3333"
+        }
+      }
+    ],
+    "cart": [
+      {
+        "tag": "svg",
+        "attributes": {
+          "viewbox": "0 0 21 20"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M6.5166 6.39192V5.58358C6.5166 3.70858 8.02494 1.86692 9.89994 1.69192C12.1333 1.47525 14.0166 3.23358 14.0166 5.42525V6.57525"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M7.76597 18.3346H12.766C16.116 18.3346 16.716 16.993 16.891 15.3596L17.516 10.3596C17.741 8.3263 17.1576 6.66797 13.5993 6.66797H6.93264C3.3743 6.66797 2.79097 8.3263 3.01597 10.3596L3.64097 15.3596C3.81597 16.993 4.41597 18.3346 7.76597 18.3346Z"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M13.1787 9.9987H13.1862"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "M7.34666 9.9987H7.35414"
+        }
+      }
+    ],
+    "wishlist": [
+      {
+        "tag": "svg",
+        "attributes": {
+          "viewbox": "0 0 24 24"
+        }
+      },
+      {
+        "tag": "path",
+        "attributes": {
+          "d": "m11.48 6.19.52.5.52-.5a5.16 5.16 0 0 1 8.73 3.72c0 2.6-1.41 4.65-3.23 6.23a20 20 0 0 1-5.23 3.13c-.51.2-1.07.2-1.58 0a20 20 0 0 1-5.23-3.13c-1.82-1.58-3.23-3.64-3.23-6.23a5.16 5.16 0 0 1 8.73-3.72Z"
+        }
+      }
+    ]
+  },
+  "logoSHA256": {
+    "header-logo_mobile_d207c2b0-ac9b-4fa6-83a9-c3e14d1b9813.svg": "4a8b86d834d1fe43cbcea96c1c072b411e663eccf1a09091e9b98bf475027b95",
+    "header-logo.svg": "198dce9231597a7931ef85a8b2edb205a9e9119dce1a334a71fad6ca3bc4eecf"
+  }
+}

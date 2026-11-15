@@ -1,0 +1,15 @@
+# Original store header and hero-link removal — 15 November 2026
+
+Owner requires the original Noetic header on BOTH complete options, with mobile behavior verified. Latest steering removes Back to the portraits and Step inside our world from option2hero; both links and the empty ribbon wrapper are absent. No other page-copy/section/portrait changes or Shopify mutations. Original footer retained and regressionchecked.
+
+Source: currentpublic https://noetic.sa/en; sanitizedheadercapture and stylemeasurements under original-header/. Reused originallogoart,5sourcevectorcontrols,8primaryentries and19uniquecollectiondestinations, category/nestedBackhierarchy, wishlist/cart/account/language destinations, Search dresses placeholder and originalDM Sans16px searchfont. Sourceaccount transient signedquery removed; stableverified account.noeticsa.com origin withlocale/region only. No rawfull-page/sessioncapture published.
+
+Mobilecentered80pxlogo,originalsix32pxwideicons,44pxhighcontrolareas and52pxheader. Desktop1280+ preserves original18pxnavtype withtwo44pxrows/128pxheader soall8linksfit; single-row source-style collision was resolved rather than clipping/shrinking. Solidoriginalpaper used forAboutUs context rather than homepagehero transparency. Announcementfirstmessage copied fromcurrentstore. Customer comparison controls remain outside/storeheader belowit.
+
+Native menu/category/nestedBack plusEscape,focusreturn andmodalbackgroundinert verified. Modalowner/focustrapscope includesvisibleClose menu andheadercontrols. Search is nativeGET tooriginalNoetic/search; Reset/Closeandfocusonresponsivechange work. Root actually submitted publicquerydress and verifiedreal /en/search?q=dress navigation. Cart/wishlist/account/Arabiclinks lead to the realstore; no fakecounter, localcart/auth/session, orclaimed image-upload/predictivesuggestion implementation.
+
+RootIABexactpublishingbundle: bothoptions320/360/390/430/768/1024/1280/1440 (16checks), zero horizontaloverflow, zero desktopnavpaintcollisions,1H1,1wishlistcontrol, removedheroLinks0. Inlinedcategoryart verified by keyboardfocus onKaftans: visibleimage source equalsmatchingembeddedasset andloads, so no unavailablelocal/publicassetrequest. Mobilekeyboardwrap staysinsidedialog;Escape closes/restoresmainandtogglefocus. IndependentA freshChrome SHIP:320/390mobile,1280/1440desktop,menus/search/reset/close/responsivestate pass; fresh tabclosed/viewportreset. No physical-phone/Safari/fieldperformance certification.
+
+IndependentB actualImpeccable0.1.17 exit2 with20warnings, no newheaderfinding:3approvedcreamidentity,13wrapper/disclosurepaddingcontexts,4realoriginal8pxcopyrightreadability/fidelityexceptions. No suppression/cleanclaim. SubsequentnarrowJS ARIAmodefix independentlyreviewed andbrowserverified; mechanicaldetector notmisrepresented as validatingruntimeaccessibility.
+
+Checks: build.mjs;check-source.mjs;check-site.mjs;check-footer.mjs;check-header.mjs (source+publishedbundle). Allpass. All4servedHTMLfilesretainnoindex andinlineassets, including404. Liveverification must followdeployment. Noindex isnotaccesscontrol/absoluteguarantee andcannotcontrolpublicGitHubUI.

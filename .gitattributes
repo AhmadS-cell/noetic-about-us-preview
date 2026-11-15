@@ -1,0 +1,5 @@
+# Preserve the original artwork/font bytes used by the source-fidelity checks.
+*.svg -text
+*.woff2 -text
+*.jpg -text
+*.png -text
